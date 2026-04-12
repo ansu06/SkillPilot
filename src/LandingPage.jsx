@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import './App.css';
 import frustratedImg from "./frustrated_learner.png";
 
@@ -277,7 +277,7 @@ export default function LandingPage({ onNavigate }) {
             </p>
             <div className="gap-hero-image-box">
               <img 
-                src="/frustrated_learner.png" 
+                src={frustratedImg} 
                 alt="Frustrated student using AI" 
                 className="gap-hero-img" 
               />
