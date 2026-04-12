@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import './App.css';
+import frustratedImg from "./frustrated_learner.png";
 
 function useCountUp(target, duration, shouldStart) {
   const [count, setCount] = useState(0);
