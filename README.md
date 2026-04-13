@@ -122,33 +122,6 @@ http://localhost:5173
 * Dynamic UI Updates
 
 ---
-🏗️ Project Architecture
-
-User (Browser)
-     │
-     ▼
-Frontend (React + Vite)
-     │
-     ├── Components Layer
-     │     ├── Navbar
-     │     ├── Career Selector
-     │     ├── Roadmap Viewer
-     │     └── Progress Tracker
-     │
-     ├── State Management
-     │     ├── useState / useEffect
-     │     └── UI State Handling
-     │
-     ├── Data Layer
-     │     └── careerData.js (Roadmap Data)
-     │
-     ▼
-Rendering Layer (Dynamic UI Updates)
-     │
-     ▼
-Deployment (Vercel)
-
----
 
 ## 💡 Problem It Solves
 
